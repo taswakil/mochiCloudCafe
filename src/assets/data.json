@@ -1,0 +1,30 @@
+{
+    "menu":[
+        {
+            "dessert": "Icecream",
+            "flavor": "Mango Melow, Vanilla Bean",
+            "price": 2.53,
+            "image": "src/assets/icecream.png"
+        },
+
+        {
+            "dessert": "Croissants",
+            "flavor": "Strawberry, Chocolate, Matcha",
+            "price": 3.75,
+            "image": "src/assets/croissants.png"
+        },
+        {
+            "dessert": "Donuts",
+            "flavor": "Raspberry Crunch, Chocolate Turtle",
+            "price": 2.99,
+            "image": "src/assets/donuts.png"
+        },
+        {
+            "dessert": "Bubble Tea",
+            "flavor": "Raspberry Crunch, Chocolate Turtle",
+            "price": 2.99,
+            "image": "src/assets/bubble.png"
+        }
+    ]
+
+}
