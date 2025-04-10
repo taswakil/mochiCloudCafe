@@ -8,7 +8,9 @@ const Menu = () => {
   return (
     <div className='menu'>
         {menuData.map((menu)=>{
-          return <Link>
+
+          ///the 'link to' with key allows me to navigate to a different page, with a specific id. when i click on icecream, i go to a page with '/menu/1' endpoint /////
+          return <Link to={menu.id.toString()} key={menu.id}>
                     <img src={menu.image}/>
                     <h2>{menu.dessert}</h2>
                     <h4>{menu.flavor}</h4>
@@ -27,6 +29,9 @@ export default Menu
 //// i realized that the endpoint u put at the end of url matches the object u receive! ///
 export const menuLoader = async () => {
   const res = await fetch("http://localhost:3000/menu");
+    if(!res.ok){
+      throw Error('Could not find dessert details:(')
+    }
   return res.json();
 }
 
