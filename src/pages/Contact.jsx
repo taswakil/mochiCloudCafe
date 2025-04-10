@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
         <h1>Contact Page</h1>
-        <div className='contact-buttons'>
+        <div className='buttons'>
           <button onClick={() => navigate('info')}><p>Contact Info</p></button>
           <button onClick={() => navigate('form')}><p>Contact Form</p></button>
         </div>
