@@ -69,14 +69,14 @@ h1, h2{
   color: #a66d45;
 }
 
-.contact-buttons{
+.buttons{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
   padding: 20px;
 } 
-.contact-buttons button{
+.buttons button{
   border: 2px solid #a66d45;
   border-radius: 20px;
   padding: 10px;
