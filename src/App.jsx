@@ -10,6 +10,8 @@ import ContactForm from './components/ContactForm'
 import ContactInfo from './components/ContactInfo'
 import NotFound from './components/NotFound'
 import MenuLayout from './layout/MenuLayout'
+import MenuItems, { MenuItemsLoader } from './components/MenuItems'
+import Error from './components/Error'
 
 const App = () => {
 
@@ -18,13 +20,14 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<RootLayout/>}>
       <Route index path='/' element={<Home/>}/>
-      <Route path='/menu' element = {<MenuLayout/>}>
-        <Route index element={<Menu/>} loader = {menuLoader}/>
+      <Route path='/menu' element = {<MenuLayout/>} errorElement={<Error/>}>
+          <Route index element={<Menu/>} loader = {menuLoader}/>
+          <Route path=':id' element={<MenuItems/>} loader= {MenuItemsLoader} />
       </Route>
       <Route path='/about' element = {<About/>}/>
       <Route path='/contact' element = {<ContactLayout/>}>
-        <Route path='form' element = {<ContactForm/>}/>
-        <Route path='info' element = {<ContactInfo/>}/>
+             <Route path='form' element = {<ContactForm/>}/>
+             <Route path='info' element = {<ContactInfo/>}/>
       </Route>
       <Route path='*' element = {<NotFound/>}/>
     </Route>
