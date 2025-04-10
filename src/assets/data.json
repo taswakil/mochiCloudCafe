@@ -1,6 +1,7 @@
 {
     "menu":[
         {
+            "id": 1,
             "dessert": "Icecream",
             "flavor": "Mango Melow, Vanilla Bean",
             "price": 2.53,
@@ -8,18 +9,21 @@
         },
 
         {
+            "id": 2,
             "dessert": "Croissants",
             "flavor": "Strawberry, Chocolate, Matcha",
             "price": 3.75,
             "image": "src/assets/croissants.png"
         },
         {
+            "id": 3,
             "dessert": "Donuts",
             "flavor": "Raspberry Crunch, Chocolate Turtle",
             "price": 2.99,
             "image": "src/assets/donuts.png"
         },
         {
+            "id": 4,
             "dessert": "Bubble Tea",
             "flavor": "Raspberry Crunch, Chocolate Turtle",
             "price": 2.99,
