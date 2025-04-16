@@ -3,7 +3,7 @@ import { Link, useLoaderData } from 'react-router-dom'
 
 const Menu = () => {
 
-    // to get API data and use Loader function, we need to have useLoaderData hook.
+    // to get API data and use Loader function, i need to have useLoaderData hook.
     const menuData = useLoaderData();
   return (
     <div className='menu'>
