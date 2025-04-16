@@ -21,8 +21,8 @@ const router = createBrowserRouter(
     <Route path='/' element={<RootLayout/>}>
       <Route index path='/' element={<Home/>}/>
       <Route path='/menu' element = {<MenuLayout/>} errorElement={<Error/>}>
-          <Route index element={<Menu/>} loader = {menuLoader}/>
-          <Route path=':id' element={<MenuItems/>} loader= {MenuItemsLoader} />
+             <Route index element={<Menu/>} loader = {menuLoader}/>
+             <Route path=':id' element={<MenuItems/>} loader= {MenuItemsLoader} />
       </Route>
       <Route path='/about' element = {<About/>}/>
       <Route path='/contact' element = {<ContactLayout/>}>
@@ -33,12 +33,10 @@ const router = createBrowserRouter(
     </Route>
   )
 )
-
   return (
     
       <RouterProvider router={router}/>
     
   )
 }
-
 export default App
