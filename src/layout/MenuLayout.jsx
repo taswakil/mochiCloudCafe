@@ -6,8 +6,7 @@ const MenuLayout = () => {
   return (
   
     <div>
-        <h2> Menu Items</h2>
-        <p> List of current menu items at our cafe!^-^</p>
+       <img src='src/assets/menuhero.svg'/>
      <Outlet/>
       </div> 
   )
