@@ -5,10 +5,13 @@ import { Outlet } from 'react-router-dom'
 
 const ContactLayout = () => {
   return (
+    <>
     <div>
+      <img src='src/assets/contacthero.svg'/>
         <Contact/>
         <Outlet/>
     </div>
+    </>
   )
 }
 
