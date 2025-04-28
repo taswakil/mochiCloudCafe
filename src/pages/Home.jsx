@@ -7,7 +7,7 @@ const Home = () => {
             <img src="src/assets/herobar1.svg"/>
         </div>
         <div className='box-box'>
-          <div className="box-1"><p className='textBg'>NEW!</p>
+          <div className="box-1"><p className='textBg1'>NEW!</p>
             <h2 className='textBg'>DAILY FRESHNESS</h2>
             <img className='menuPics' src='src/assets/souffle.png'/>
             <p className='textBg'>'Souffle Pancake' Mochi</p>
