@@ -5,12 +5,33 @@ const MenuItems = () => {
   const MenuItems = useLoaderData();
 
   return (
-    <div>
-      <br />
-      <h2>Dessert Category:</h2>
-      <h1>{MenuItems.dessert}</h1>
-      <p>Indulge in delicious fluffy desserts that range in sweetness ^-^</p>
-      <img src={MenuItems.image} />
+    <div >
+      <div className="menuPage">
+        <h1>{MenuItems.dessert}</h1>
+      </div> 
+
+      <div className="box-box">
+        <div className="menubox-1">
+        <img src={MenuItems.image}/>
+        </div>
+
+        <div className="menubox-2">
+          <div>
+          <p className="textBg">Every flavor tells a story - pick yours!</p>
+          </div>
+          <div className="flavor-item">
+            <div className="menubtn">
+            <h3>{MenuItems.flavor[0]}</h3>
+            </div>
+            <div className="menubtn">
+            <h3>{MenuItems.flavor[1]}</h3>
+            </div>
+            <div className="menubtn">
+            <h3>{MenuItems.flavor[2]}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
