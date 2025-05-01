@@ -5,7 +5,7 @@ const About = () => {
     <>
     <div>
     <div style={{width: "100%"}}>
-        <img src="src/assets/abouthero.svg"/>
+        <img src="abouthero.svg"/>
     </div>
     <div className='box-box'>
        <div className='container1'>

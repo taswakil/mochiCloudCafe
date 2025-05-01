@@ -6,7 +6,7 @@ const MenuLayout = () => {
   return (
   
     <div>
-       <img src='src/assets/menuhero.svg'/>
+       <img src='menuhero.svg'/>
      <Outlet/>
       </div> 
   )

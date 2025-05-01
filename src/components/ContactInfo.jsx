@@ -20,7 +20,7 @@ const ContactInfo = () => {
         </div>
       </div>
       <div className="notinfo">
-        <img src="src/assets/socails.svg" />
+        <img src="socails.svg" />
       </div>
     </div>
   );

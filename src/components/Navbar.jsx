@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
      <div className='navbar'>
         <NavLink to="/">
-        <img src="src/assets/mochiCloudLogo.svg" alt="logo" width={"200px"}/></NavLink>
+        <img src="mochiCloudLogo.svg" alt="logo" width={"200px"}/></NavLink>
         <ul>
             <NavLink to='/'><li>Home</li></NavLink> 
             <NavLink to='/menu'><li>Menu</li></NavLink> 
