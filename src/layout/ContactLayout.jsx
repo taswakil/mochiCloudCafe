@@ -7,7 +7,7 @@ const ContactLayout = () => {
   return (
     <>
     <div>
-      <img src='contacthero.svg'/>
+      <img src='src/assets/contacthero.svg'/>
         <Contact/>
         <Outlet/>
     </div>

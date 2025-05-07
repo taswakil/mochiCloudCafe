@@ -1,0 +1,32 @@
+{
+    "menu":[
+        {
+            "id": 1,
+            "dessert": "Icecream",
+            "flavor": ["Mango Melow", "Vanilla Bean", "Ube Delight"],
+            "price": 2.55,
+            "image": "src/assets/icecream.png"
+        },
+        {
+            "id": 2,
+            "dessert": "Croissants",
+            "flavor": ["Apple Dew", "Caramel Cloud", "Strawberry Crunch"],
+            "price": 3.75,
+            "image": "src/assets/croissants.png"
+        },
+        {
+            "id": 3,
+            "dessert": "Donuts",
+            "flavor": ["Strawberry Stardust", "Matcha Moon", "Vanilla Velvet"],
+            "price": 2.99,
+            "image": "src/assets/donuts.png"
+        },
+        {
+            "id": 4,
+            "dessert": "Bubble Tea",
+            "flavor": ["Lychee Breeze", "Blueberry Sky", "Cloud Cream Boba"],
+            "price": 4.55,
+            "image": "src/assets/bubble.png"
+        }
+    ]
+}
