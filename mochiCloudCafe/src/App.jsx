@@ -19,7 +19,7 @@ const App = () => {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<RootLayout/>}>
-      <Route index path='/' element={<Home/>}/>
+    <Route index path='/' element={<Home/>}/>
       <Route path='/menu' element = {<MenuLayout/>} errorElement={<Error/>}>
              <Route index element={<Menu/>} loader = {menuLoader}/>
              <Route path=':id' element={<MenuItems/>} loader= {MenuItemsLoader} />
@@ -34,9 +34,10 @@ const router = createBrowserRouter(
   )
 )
   return (
-    
+    <>
+  
       <RouterProvider router={router}/>
-    
+    </>
   )
 }
 export default App
